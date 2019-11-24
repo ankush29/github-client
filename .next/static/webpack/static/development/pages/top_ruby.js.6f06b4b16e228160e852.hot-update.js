@@ -1,0 +1,15 @@
+webpackHotUpdate("static\\development\\pages\\top_ruby.js",{
+
+/***/ "./components/molecules/SwipeableMenu/index.js":
+/*!*****************************************************!*\
+  !*** ./components/molecules/SwipeableMenu/index.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-babel-loader.js):\nSyntaxError: C:\\Users\\Admin\\Documents\\github-client\\components\\molecules\\SwipeableMenu\\index.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (13:2)\n\n  11 |     Click Me\n  12 |   </a>\n> 13 |   <ListItem button onClick={onClick} ref={ref}>\n     |   ^\n  14 |     <ListItemText primary={text} />\n  15 |   </ListItem>\n  16 | ))\n    at Object.raise (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:6930:17)\n    at Object.jsxParseElementAt (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:4060:18)\n    at Object.jsxParseElement (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:4070:17)\n    at Object.parseExprAtom (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:4077:19)\n    at Object.parseExprSubscripts (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9165:23)\n    at Object.parseMaybeUnary (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9145:21)\n    at Object.parseExprOps (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9011:23)\n    at Object.parseMaybeConditional (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:8984:23)\n    at Object.parseMaybeAssign (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:8930:21)\n    at Object.parseParenAndDistinguishExpression (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9720:28)\n    at Object.parseExprAtom (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9503:21)\n    at Object.parseExprAtom (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:4082:20)\n    at Object.parseExprSubscripts (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9165:23)\n    at Object.parseMaybeUnary (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9145:21)\n    at Object.parseExprOps (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:9011:23)\n    at Object.parseMaybeConditional (C:\\Users\\Admin\\Documents\\github-client\\node_modules\\@babel\\parser\\lib\\index.js:8984:23)");
+
+/***/ })
+
+})
+//# sourceMappingURL=top_ruby.js.6f06b4b16e228160e852.hot-update.js.map
