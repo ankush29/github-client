@@ -2856,7 +2856,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_getPageContext__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../lib/getPageContext */ "./lib/getPageContext.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 /* eslint-disable no-unused-vars */

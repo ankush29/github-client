@@ -28,7 +28,7 @@
       ]
     },
     "test": {
-      "presets": ["react", "env", "stage-0"],
+      "presets": ["@babel/preset-react", "@babel/env"],
       "plugins": [
         "require-context-hook",
         ["module-resolver", {

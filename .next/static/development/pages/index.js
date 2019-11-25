@@ -11,7 +11,6 @@ var map = {
 	"./atoms/AppBar/index.js": "./components/atoms/AppBar/index.js",
 	"./atoms/Button/index.js": "./components/atoms/Button/index.js",
 	"./atoms/Card/index.js": "./components/atoms/Card/index.js",
-	"./atoms/CardActions/index.js": "./components/atoms/CardActions/index.js",
 	"./atoms/CardContent/index.js": "./components/atoms/CardContent/index.js",
 	"./atoms/Grid/index.js": "./components/atoms/Grid/index.js",
 	"./atoms/IconButton/index.js": "./components/atoms/IconButton/index.js",
@@ -24,6 +23,7 @@ var map = {
 	"./atoms/SwipeableDrawer/index.js": "./components/atoms/SwipeableDrawer/index.js",
 	"./atoms/Toolbar/index.js": "./components/atoms/Toolbar/index.js",
 	"./atoms/Typography/index.js": "./components/atoms/Typography/index.js",
+	"./atoms/cardActions/index.js": "./components/atoms/cardActions/index.js",
 	"./molecules/Header/index.js": "./components/molecules/Header/index.js",
 	"./molecules/SimpleCard/index.js": "./components/molecules/SimpleCard/index.js",
 	"./molecules/SwipeableMenu/index.js": "./components/molecules/SwipeableMenu/index.js",
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\AppBar\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\AppBar\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -115,7 +115,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\Button\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\Button\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -159,7 +159,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\Card\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\Card\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -185,50 +185,6 @@ Card.propTypes = {
 
 /***/ }),
 
-/***/ "./components/atoms/CardActions/index.js":
-/*!***********************************************!*\
-  !*** ./components/atoms/CardActions/index.js ***!
-  \***********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-
-
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\CardActions\\index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
-
-
-
-
-var CardActions = function CardActions(props) {
-  var children = props.children,
-      defaultProps = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["children"]);
-
-  return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["CardActions"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, defaultProps, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), children);
-};
-
-CardActions.propTypes = {
-  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node.isRequired
-};
-/* harmony default export */ __webpack_exports__["default"] = (CardActions);
-
-/***/ }),
-
 /***/ "./components/atoms/CardContent/index.js":
 /*!***********************************************!*\
   !*** ./components/atoms/CardContent/index.js ***!
@@ -247,7 +203,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\CardContent\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\CardContent\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -291,7 +247,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\Grid\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\Grid\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -335,7 +291,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\IconButton\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\IconButton\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -379,7 +335,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\List\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\List\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -423,7 +379,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\ListItem\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\ListItem\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -467,7 +423,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\ListItemIcon\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\ListItemIcon\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -511,7 +467,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\ListItemText\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\ListItemText\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -554,7 +510,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/CircularProgress */ "./node_modules/@material-ui/core/esm/CircularProgress/index.js");
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\Loader\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\Loader\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -588,7 +544,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/icons/Menu */ "./node_modules/@material-ui/icons/Menu.js");
 /* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\MenuIcon\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\MenuIcon\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -625,7 +581,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\SwipeableDrawer\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\SwipeableDrawer\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -669,7 +625,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\Toolbar\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\Toolbar\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -713,7 +669,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 
 
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\atoms\\Typography\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\Typography\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
@@ -736,6 +692,50 @@ Typography.propTypes = {
   children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (Typography);
+
+/***/ }),
+
+/***/ "./components/atoms/cardActions/index.js":
+/*!***********************************************!*\
+  !*** ./components/atoms/cardActions/index.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+
+
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\atoms\\cardActions\\index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+
+
+var CardActions = function CardActions(props) {
+  var children = props.children,
+      defaultProps = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["children"]);
+
+  return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["CardActions"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, defaultProps, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), children);
+};
+
+CardActions.propTypes = {
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node.isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (CardActions);
 
 /***/ }),
 
@@ -771,7 +771,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../.. */ "./components/index.js");
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(___WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\molecules\\Header\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\molecules\\Header\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -877,7 +877,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../.. */ "./components/index.js");
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(___WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\molecules\\SimpleCard\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\molecules\\SimpleCard\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -984,7 +984,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../.. */ "./components/index.js");
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(___WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\molecules\\SwipeableMenu\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\molecules\\SwipeableMenu\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1090,7 +1090,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../.. */ "./components/index.js");
 /* harmony import */ var ___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(___WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\organisms\\HeaderWithSwipeableMenu\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\organisms\\HeaderWithSwipeableMenu\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1165,7 +1165,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\components\\templates\\Home\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\components\\templates\\Home\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1237,7 +1237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! js-cookie */ "./node_modules/js-cookie/src/js.cookie.js");
 /* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\containers\\GithubLoginButtonContainer\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\containers\\GithubLoginButtonContainer\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1289,7 +1289,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components */ "./components/index.js");
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _GithubLoginButtonContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../GithubLoginButtonContainer */ "./containers/GithubLoginButtonContainer/index.js");
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\containers\\HeaderContainer\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\containers\\HeaderContainer\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1354,7 +1354,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_apollo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-apollo */ "./node_modules/react-apollo/lib/react-apollo.esm.js");
 /* harmony import */ var _graphql_queries_viewerLast100Repositories__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../graphql/queries/viewerLast100Repositories */ "./graphql/queries/viewerLast100Repositories.js");
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\containers\\ViewerRepoList\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\containers\\ViewerRepoList\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -44432,7 +44432,7 @@ var flexbox = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(flexBasis
 /*!*******************************************************!*\
   !*** ./node_modules/@material-ui/system/esm/index.js ***!
   \*******************************************************/
-/*! exports provided: borders, border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, breakpoints, compose, css, display, flexbox, flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, palette, color, bgcolor, positions, position, zIndex, top, right, bottom, left, shadows, sizing, width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, spacing, style, typography, fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign */
+/*! exports provided: borders, breakpoints, compose, css, display, flexbox, palette, positions, shadows, sizing, spacing, style, typography, border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, color, bgcolor, position, zIndex, top, right, bottom, left, width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56969,10 +56969,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CAdmin%5CDocuments%5Cgithub-client%5Cpages%5Cindex.js!./":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CAdmin%5CDocuments%5Cgithub-client%5Cpages%5Cindex.js ***!
-  \********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Canksaini1%5CDocuments%5Cproject%5Cgithub-client%5Cpages%5Cindex.js!./":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Canksaini1%5CDocuments%5Cproject%5Cgithub-client%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -72715,7 +72715,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _containers_HeaderContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../containers/HeaderContainer */ "./containers/HeaderContainer/index.js");
 /* harmony import */ var _containers_ViewerRepoList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../containers/ViewerRepoList */ "./containers/ViewerRepoList/index.js");
-var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\anksaini1\\Documents\\project\\github-client\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -72752,13 +72752,13 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 0:
-/*!************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CAdmin%5CDocuments%5Cgithub-client%5Cpages%5Cindex.js ***!
-  \************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Canksaini1%5CDocuments%5Cproject%5Cgithub-client%5Cpages%5Cindex.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CAdmin%5CDocuments%5Cgithub-client%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CAdmin%5CDocuments%5Cgithub-client%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Canksaini1%5CDocuments%5Cproject%5Cgithub-client%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Canksaini1%5CDocuments%5Cproject%5Cgithub-client%5Cpages%5Cindex.js!./");
 
 
 /***/ }),

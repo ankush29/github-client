@@ -4,28 +4,28 @@ import { HeaderWithSwipeableMenu } from 'components';
 import GithubLoginButtonContainer from 'containers/GithubLoginButtonContainer';
 
 function HeaderContainer(props) {
-  console.log('props----',props)
-  const [ leftMenuIsOpened, setLeftMenuIsOpened ] = useState(false)
+  console.log('props----', props);
+  const [leftMenuIsOpened, setLeftMenuIsOpened] = useState(false);
 
   const toggleLeftMenuShow = (status) => {
-    console.log('status..',status)
+    console.log('status..', status);
 
-    setLeftMenuIsOpened(status)
-  }
+    setLeftMenuIsOpened(status);
+  };
 
-  return(
+  return (
     <HeaderWithSwipeableMenu
       title={props.title}
       leftMenuIsOpened={leftMenuIsOpened}
-      openMenu={() => toggleLeftMenuShow(true)}
-      closeMenu={() => toggleLeftMenuShow(false)}
+      openMenu={toggleLeftMenuShow(true)}
+      closeMenu={toggleLeftMenuShow(false)}
       loginButtonContainer={<GithubLoginButtonContainer />}
     />
-  )
+  );
 }
 
 HeaderContainer.propTypes = {
   title: PropTypes.string.isRequired,
-}
+};
 
 export default HeaderContainer;

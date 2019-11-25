@@ -23,8 +23,8 @@ const SearchRepoList = ({ query }) => (
         );
       }
       return (
-        <React.Fragment>
-          {data.search.edges.map(repo => (
+        <>
+          {data.search.edges.map((repo) => (
             <Grid key={repo.node.name} item xs={6} sm={4} lg={3} xl={2}>
               <SimpleCard
                 title={repo.node.name}
@@ -33,7 +33,7 @@ const SearchRepoList = ({ query }) => (
               />
             </Grid>
           ))}
-        </React.Fragment>
+        </>
       );
     }}
   </Query>
