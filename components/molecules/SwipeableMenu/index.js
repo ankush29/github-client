@@ -7,7 +7,7 @@ import {
 } from '../..';
 
 const MyButton = React.forwardRef(({ onClick, href, text }, ref) => (
-  
+
   <ListItem button onClick={onClick} ref={ref}>
     <ListItemText primary={text}>
       <a href={href} onClick={onClick} ref={ref}>
@@ -15,7 +15,7 @@ const MyButton = React.forwardRef(({ onClick, href, text }, ref) => (
       </a>
     </ListItemText>
   </ListItem>
-))
+));
 
 const SwipeableMenu = (props) => {
   const {
@@ -29,7 +29,7 @@ const SwipeableMenu = (props) => {
       onOpen={openMenu}
     >
       <List>
-        {menuItems.map(item => (
+        {menuItems.map((item) => (
           <Link key={item.id} href={item.url}>
             <MyButton text={item.text} />
           </Link>

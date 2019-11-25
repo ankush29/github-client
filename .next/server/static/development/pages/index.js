@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -274,7 +274,7 @@ const Card = props => {
   return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["Card"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, defaultProps, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: undefined
   }), children);
@@ -1267,14 +1267,14 @@ const HeaderWithSwipeableMenu = props => {
       menuItems: MENU_ITEMS,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 38
       },
       __self: undefined
     }),
     loginButton: loginButtonContainer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     },
     __self: undefined
   });
@@ -1407,7 +1407,7 @@ function GithubLoginButtonContainer() {
     onClick: handleSignIn,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }, "Sign In");
@@ -1426,54 +1426,71 @@ function GithubLoginButtonContainer() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components */ "./components/index.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _GithubLoginButtonContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../GithubLoginButtonContainer */ "./containers/GithubLoginButtonContainer/index.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./components/index.js");
+/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _GithubLoginButtonContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../GithubLoginButtonContainer */ "./containers/GithubLoginButtonContainer/index.js");
+
 var _jsxFileName = "C:\\Users\\Admin\\Documents\\github-client\\containers\\HeaderContainer\\index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
 
 
-function HeaderContainer(props) {
-  console.log('props----', props);
-  const {
-    0: leftMenuIsOpened,
-    1: setLeftMenuIsOpened
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+class HeaderContainer extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(...args) {
+    super(...args);
 
-  const toggleLeftMenuShow = status => {
-    console.log('status..', status);
-    setLeftMenuIsOpened(status);
-  };
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "state", {
+      leftMenuIsOpened: false
+    });
 
-  return __jsx(_components__WEBPACK_IMPORTED_MODULE_2__["HeaderWithSwipeableMenu"], {
-    title: props.title,
-    leftMenuIsOpened: leftMenuIsOpened,
-    openMenu: () => toggleLeftMenuShow(true),
-    closeMenu: () => toggleLeftMenuShow(false),
-    loginButtonContainer: __jsx(_GithubLoginButtonContainer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "toggleLeftMenuShow", leftMenuIsOpened => () => {
+      this.setState({
+        leftMenuIsOpened
+      });
+    });
+  }
+
+  render() {
+    const {
+      state: {
+        leftMenuIsOpened
+      },
+      props: {
+        title
+      },
+      toggleLeftMenuShow
+    } = this;
+    return __jsx(_components__WEBPACK_IMPORTED_MODULE_3__["HeaderWithSwipeableMenu"], {
+      title: title,
+      leftMenuIsOpened: leftMenuIsOpened,
+      openMenu: toggleLeftMenuShow(true),
+      closeMenu: toggleLeftMenuShow(false),
+      loginButtonContainer: __jsx(_GithubLoginButtonContainer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 29
       },
       __self: this
-    }),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  });
+    });
+  }
+
 }
 
 HeaderContainer.propTypes = {
-  title: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  title: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (HeaderContainer);
 
@@ -1562,13 +1579,7 @@ const ViewerRepoList = () => __jsx(react_apollo__WEBPACK_IMPORTED_MODULE_2__["Qu
     }, "Please Sign In to fetch data"));
   }
 
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
-  }, data.viewer.repositories.edges.map(repo => __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, data.viewer.repositories.edges.map(repo => __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
     key: repo.node.id,
     item: true,
     xs: 6,
@@ -1724,6 +1735,36 @@ module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "./node_m
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ "./node_modules/@babel/runtime-corejs2/node_modules/core-js/library/fn/weak-map.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
 
 /***/ }),
 
@@ -7263,7 +7304,7 @@ const Index = () => __jsx(_components__WEBPACK_IMPORTED_MODULE_1__["Home"], {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

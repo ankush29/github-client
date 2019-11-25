@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page renders cards with all information on success 1`] = `
+<div>
+  <div
+    className="Header-root-1"
+  >
+    <header
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+    >
+      <div
+        className="PrivateSwipeArea-root-250 PrivateSwipeArea-anchorLeft-251"
+        style={
+          Object {
+            "width": 20,
+          }
+        }
+      />
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <button
+          aria-label="Menu"
+          className="MuiButtonBase-root MuiIconButton-root Header-menuButton-3 MuiIconButton-colorInherit"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+        <h6
+          className="MuiTypography-root Header-flex-2 MuiTypography-subtitle1 MuiTypography-colorInherit"
+        >
+          Home
+        </h6>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Sign In
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </header>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": 12,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      style={
+        Object {
+          "padding": 24,
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-3 MuiGrid-grid-xl-2"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root SimpleCard-card-277 MuiPaper-rounded"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <h3
+              className="MuiTypography-root MuiTypography-h3"
+            >
+              repo name
+            </h3>
+            <p
+              className="MuiTypography-root SimpleCard-pos-280 MuiTypography-body1 MuiTypography-colorTextSecondary"
+            >
+              desc
+            </p>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing"
+          >
+            <a
+              aria-disabled={false}
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+              href="url.com"
+              onBlur={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              target="_blank"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Learn More
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home Page renders correct message on error 1`] = `
+<div>
+  <div
+    className="Header-root-1"
+  >
+    <header
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+    >
+      <div
+        className="PrivateSwipeArea-root-250 PrivateSwipeArea-anchorLeft-251"
+        style={
+          Object {
+            "width": 20,
+          }
+        }
+      />
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <button
+          aria-label="Menu"
+          className="MuiButtonBase-root MuiIconButton-root Header-menuButton-3 MuiIconButton-colorInherit"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+        <h6
+          className="MuiTypography-root Header-flex-2 MuiTypography-subtitle1 MuiTypography-colorInherit"
+        >
+          Home
+        </h6>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Sign In
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </header>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": 12,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      style={
+        Object {
+          "padding": 24,
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-xs-center"
+        style={
+          Object {
+            "padding": 24,
+          }
+        }
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle2"
+        >
+          Please Sign In to fetch data
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home Page renders loading state initially 1`] = `
+<div>
+  <div
+    className="Header-root-1"
+  >
+    <header
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <button
+          aria-label="Menu"
+          className="MuiButtonBase-root MuiIconButton-root Header-menuButton-3 MuiIconButton-colorInherit"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </button>
+        <h6
+          className="MuiTypography-root Header-flex-2 MuiTypography-subtitle1 MuiTypography-colorInherit"
+        >
+          Home
+        </h6>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Sign In
+          </span>
+        </button>
+      </div>
+    </header>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": 12,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      style={
+        Object {
+          "padding": 24,
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-xs-center"
+        style={
+          Object {
+            "padding": 24,
+          }
+        }
+      >
+        <div
+          className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          role="progressbar"
+          style={
+            Object {
+              "height": 300,
+              "width": 300,
+            }
+          }
+        >
+          <svg
+            className="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx={44}
+              cy={44}
+              fill="none"
+              r={20.2}
+              strokeWidth={3.6}
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -10,14 +10,14 @@ storiesOf('atoms/Button', module)
     </Button>
   ))
   .add('Outlined primary', () => (
-    <Button variant='outlined' color='primary' onClick={action('clicked')}>
+    <Button variant="outlined" color="primary" onClick={action('clicked')}>
       Outline primary
     </Button>
   ))
   .add('Contained Secondary', () => (
     <Button variant="contained" color="secondary" onClick={action('clicked')}>
       Contained Secondary
-    </Button>  
+    </Button>
   ))
   .add('circle button', () => (
     <Button variant="fab" color="primary" aria-label="Add" onClick={action('clicked')}>

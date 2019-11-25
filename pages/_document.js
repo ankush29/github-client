@@ -15,8 +15,8 @@ class MainDocument extends Document {
           <meta
             name="viewport"
             content={
-              'user-scalable=0, initial-scale=1, ' +
-              'minimum-scale=1, width=device-width, height=device-height'
+              'user-scalable=0, initial-scale=1, '
+              + 'minimum-scale=1, width=device-width, height=device-height'
             }
           />
           {/* PWA primary color */}
@@ -92,4 +92,4 @@ MainDocument.getInitialProps = (ctx) => {
   };
 };
 
-export default MainDocument
+export default MainDocument;

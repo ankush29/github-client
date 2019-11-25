@@ -23,8 +23,8 @@ const ViewerRepoList = () => (
         );
       }
       return (
-        <React.Fragment>
-          {data.viewer.repositories.edges.map(repo => (
+        <>
+          {data.viewer.repositories.edges.map((repo) => (
             <Grid key={repo.node.id} item xs={6} sm={4} lg={3} xl={2}>
               <SimpleCard
                 title={repo.node.name}
@@ -33,7 +33,7 @@ const ViewerRepoList = () => (
               />
             </Grid>
           ))}
-        </React.Fragment>
+        </>
       );
     }}
   </Query>

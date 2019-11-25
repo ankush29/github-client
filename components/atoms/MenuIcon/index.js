@@ -1,7 +1,7 @@
 import React from 'react';
 import MaterialMenuIcon from '@material-ui/icons/Menu';
 
-const MenuIcon = props => (
+const MenuIcon = (props) => (
   <MaterialMenuIcon {...props} />
 );
 
