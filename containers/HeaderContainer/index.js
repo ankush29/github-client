@@ -41,5 +41,4 @@ HeaderContainer.propTypes = {
   title: PropTypes.string.isRequired,
 };
 
-
 export default HeaderContainer;

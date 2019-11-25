@@ -32,9 +32,7 @@
     "test": "jest"
   },
   "jest": {
-    "setupFilesAfterEnv": [
-      "./lib/testConfig.js"
-    ]
+    "setupFilesAfterEnv": ["./lib/testConfig.js"]
   },
   "devDependencies": {
     "@apollo/react-testing": "^3.1.3",

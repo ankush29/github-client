@@ -1247,6 +1247,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+<<<<<<< HEAD
 "@babel/runtime@^7.7.4":
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.4.tgz#b23a856751e4bf099262f867767889c0e3fe175b"
@@ -1254,6 +1255,8 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+=======
+>>>>>>> 9d1530b5e04aebd90a1e3e6a2fcdb60ae43f8aa2
 "@babel/template@^7.4.0", "@babel/template@^7.7.4":
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.7.4.tgz#428a7d9eecffe27deac0a98e23bf8e3675d2a77b"
@@ -10188,7 +10191,11 @@ react-syntax-highlighter@^8.0.1:
     prismjs "^1.8.4"
     refractor "^2.4.1"
 
+<<<<<<< HEAD
 react-test-renderer@^16.0.0-0, react-test-renderer@^16.12.0:
+=======
+react-test-renderer@^16.0.0-0:
+>>>>>>> 9d1530b5e04aebd90a1e3e6a2fcdb60ae43f8aa2
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.12.0.tgz#11417ffda579306d4e841a794d32140f3da1b43f"
   integrity sha512-Vj/teSqt2oayaWxkbhQ6gKis+t5JrknXfPVo+aIJ8QwYAqMPH77uptOdrlphyxl8eQI/rtkOYg86i/UWkpFu0w==
